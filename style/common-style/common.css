@@ -299,6 +299,7 @@ section.section-block {
 }
 .title-section span img {
   width: auto;
+  max-width: 41px;
 }
 
 /* ==========end - header========== */
