@@ -258,6 +258,11 @@ header {
                             color: #fff;
                             opacity: 1;
                         }
+
+                        &.active {
+                            background-color: $cl-01;
+                            color: #fff;
+                        }
                     }
                 }
 
@@ -368,9 +373,102 @@ footer {
         }
     }
 
+    .footer__block {
+        .copyright {
+            font-size: 14px;
+
+            a {
+                color: #0077FF;
+            }
+        }
+
+        .footer__logo {
+            margin-bottom: 30px;
+            img {
+                max-width: 270px;
+            }
+        }
+
+        .footer__img-link {
+            img {
+                max-width: 170px;
+            }
+        }
+
+        .about-line {
+            font-size: 14px;
+        }
+
+        .footer__contact {
+            li {
+                display: flex; 
+                align-items: flex-start;
+                font-size: 14px;
+                margin-bottom: 12px;
+
+                a {
+                    font-size: 14px;
+                }
+
+                &:last-child {
+                    margin-bottom: 0px;
+                }
+
+                img {
+                    width: auto;
+                    max-width: 16px;
+                    margin-top: 3px;
+                    margin-right: 10px;
+                }
+            }
+        }
+
+        .footer__social {
+            display: flex;
+            align-items: center;
+
+            li {
+                margin-right: 15px;
+                border: 1px solid #777777;
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: 0.2s;
+
+                &:hover {
+                    background-color: #1A1A1A;
+                    border-color: #1A1A1A;
+
+                    a {
+                        opacity: 1;
+                    }
+
+                    a svg path {
+                        fill: #fff;
+                    }
+                }
+
+                a {
+                    svg {
+                        path {
+                            fill: #777;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
     .footer__title {
         font-size: 20px;
         margin-bottom: 15px;
+
+        &.ct-color {
+            color: #0077FF;
+        }
     }
 }
 
@@ -416,6 +514,7 @@ section.section-block {
     .info {
         font-size: 14px;
         color: #777777;
+        white-space: nowrap;
 
         &:not(:last-child) {
             margin-right: 15px;
@@ -439,6 +538,11 @@ aside.wrap-aside {
         font-size: 20px;
         font-weight: bold;
         margin-bottom: 20px;
+
+        span {
+            padding-bottom: 2px;
+            border-bottom: 2px solid $cl-01;
+        }
     }
 
     table.covid-19 {
@@ -676,6 +780,94 @@ aside.wrap-aside {
             border-radius: 10px;
             left: 0px;
             top: 8px;
+        }
+    }
+}
+
+.aside-news {
+    li {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 12px;
+        padding-bottom: 12px;
+        border-bottom: 1px solid $border-cl;
+
+        .thumb {
+            img {
+                width: 100px;
+                height: 70px;
+                object-fit: cover;
+                border-radius: 10px;
+            }
+        }
+    
+        .desc {
+            flex: 1;
+            padding-left: 15px;
+    
+            @include breakpoint(767px) {
+                padding-left: 10px;
+            }
+
+            .title {
+                margin-bottom: 10px;
+                a {
+                    font-size: $title-small;
+                    @include lineNumber(2);
+                }
+            }
+
+            .new-info-cm {
+                .info {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+
+.aside-video {
+    li {
+        iframe {
+            height: 166px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            width: 100%;
+        }
+
+        .title {
+            margin-bottom: 0px;
+
+            a {
+                font-size: $title-small;
+            }
+        }
+    }
+}
+
+.pagination {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+
+    a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        color: #000000D9;
+        padding: 4px 8px;
+
+        &:hover {
+            color: $cl-01;
+        }
+
+        &.active {
+            color: $cl-01;
+        }
+
+        img {
+            max-width: 10px;
         }
     }
 }
