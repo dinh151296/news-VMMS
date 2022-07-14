@@ -7,6 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
 
+    <!-- import css slick-slider -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- add font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,8 +22,8 @@
     <!-- bootstrap -->
 
 
-    <link rel="stylesheet" href="./style/common-style/common.css" type="text/css">
-    <link rel="stylesheet" href="./style/pages-style/home/home.css" type="text/css">
+    <link rel="stylesheet" href="./css/common.css" type="text/css">
+    <link rel="stylesheet" href="./css/home.css" type="text/css">
 
 </head>
 
@@ -60,12 +64,12 @@
                             </li>
                             <li>
                                 <a href="">
-                                    <img src="./images/fb-icon.svg" alt="">
+                                    <img src="./images/twitter-icon.svg" alt="">
                                 </a>
                             </li>
                             <li>
                                 <a href="">
-                                    <img src="./images/fb-icon.svg" alt="">
+                                    <img src="./images/ytb-icon.svg" alt="">
                                 </a>
                             </li>
                         </ul>
@@ -228,11 +232,2082 @@
                         <img src="./images/news-icon.svg" alt="">
                     </span>
                 </div>
+                <ul class="hot-news__slide slider-cm-arrow">
+                    <li class="hot-new__item">
+                        <div class="thumb">
+                            <a href="">
+                                <img src="./images/home-new-01.jpg" alt="">
+                            </a>
+                        </div>
+                        <h3 class="title">
+                            <a href="">Bộ Y tế chính thức ban hành hướng dẫn phòng chống dịch COVID-19</a>
+                        </h3>
+                    </li>
+                    <li class="hot-new__item">
+                        <div class="thumb">
+                            <a href="">
+                                <img src="./images/home-new-01.jpg" alt="">
+                            </a>
+                        </div>
+                        <h3 class="title">
+                            <a href="">Bộ Y tế chính thức ban hành hướng dẫn phòng chống dịch COVID-19 Bộ Y tế chính thức ban hành hướng dẫn phòng chống dịch COVID-19</a>
+                        </h3>
+                    </li>
+                    <li class="hot-new__item">
+                        <div class="thumb">
+                            <a href="">
+                                <img src="./images/home-new-01.jpg" alt="">
+                            </a>
+                        </div>
+                        <h3 class="title">
+                            <a href="">Bộ Y tế chính thức ban hành hướng dẫn phòng chống dịch COVID-19</a>
+                        </h3>
+                    </li>
+                    <li class="hot-new__item">
+                        <div class="thumb">
+                            <a href="">
+                                <img src="./images/home-new-01.jpg" alt="">
+                            </a>
+                        </div>
+                        <h3 class="title">
+                            <a href="">Bộ Y tế chính thức ban hành hướng dẫn phòng chống dịch COVID-19</a>
+                        </h3>
+                    </li>
+                </ul>
             </div>
         </section>
+        <section class="section-block most-view">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-8">
+                        <div class="title-section">
+                            <span>TIN TỨC XEM NHIỀU</span>
+                            <span>
+                                <img src="./images/news-icon.svg" alt="">
+                            </span>
+                        </div>
+                        <ul class="most-view__list">
+                            <li>
+                                <div class="thumb">
+                                    <a href="">
+                                        <img src="./images/home-new-01.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="desc">
+                                    <h3 class="title">
+                                        <a href="">
+                                            Lương tối thiểu không còn bảo vệ được người yếu thế
+                                        </a>
+                                    </h3>
+                                    <div class="content">
+                                        Ông Lê Đình Quảng, thành viên Hội đồng Tiền lương quốc gia nhận định, lương tối thiểu hiện quá thấp, nhưng để cân bằng mức chi trả của doanh nghiệp và quyền lợi của người lao động là bài toán khó.
+                                    </div>
+                                    <div class="new-info-cm d-flex align-items-center">
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/user-icon.svg" alt="">
+                                            Nguyễn Hằng
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/calender-icon.svg" alt="">
+                                            16/03/2022
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/comment-icon.svg" alt="">
+                                            <span>80</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="thumb">
+                                    <a href="">
+                                        <img src="./images/home-new-01.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="desc">
+                                    <h3 class="title">
+                                        <a href="">
+                                            Lương tối thiểu không còn bảo vệ được người yếu thế
+                                        </a>
+                                    </h3>
+                                    <div class="content">
+                                        Ông Lê Đình Quảng, thành viên Hội đồng Tiền lương quốc gia nhận định, lương tối thiểu hiện quá thấp, nhưng để cân bằng mức chi trả của doanh nghiệp và quyền lợi của người lao động là bài toán khó.
+                                    </div>
+                                    <div class="new-info-cm d-flex align-items-center">
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/user-icon.svg" alt="">
+                                            Nguyễn Hằng
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/calender-icon.svg" alt="">
+                                            16/03/2022
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/comment-icon.svg" alt="">
+                                            <span>80</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="thumb">
+                                    <a href="">
+                                        <img src="./images/home-new-01.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="desc">
+                                    <h3 class="title">
+                                        <a href="">
+                                            Lương tối thiểu không còn bảo vệ được người yếu thế
+                                        </a>
+                                    </h3>
+                                    <div class="content">
+                                        Ông Lê Đình Quảng, thành viên Hội đồng Tiền lương quốc gia nhận định, lương tối thiểu hiện quá thấp, nhưng để cân bằng mức chi trả của doanh nghiệp và quyền lợi của người lao động là bài toán khó.
+                                    </div>
+                                    <div class="new-info-cm d-flex align-items-center">
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/user-icon.svg" alt="">
+                                            Nguyễn Hằng
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/calender-icon.svg" alt="">
+                                            16/03/2022
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/comment-icon.svg" alt="">
+                                            <span>80</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="thumb">
+                                    <a href="">
+                                        <img src="./images/home-new-01.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="desc">
+                                    <h3 class="title">
+                                        <a href="">
+                                            Lương tối thiểu không còn bảo vệ được người yếu thế
+                                        </a>
+                                    </h3>
+                                    <div class="content">
+                                        Ông Lê Đình Quảng, thành viên Hội đồng Tiền lương quốc gia nhận định, lương tối thiểu hiện quá thấp, nhưng để cân bằng mức chi trả của doanh nghiệp và quyền lợi của người lao động là bài toán khó.
+                                    </div>
+                                    <div class="new-info-cm d-flex align-items-center">
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/user-icon.svg" alt="">
+                                            Nguyễn Hằng
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/calender-icon.svg" alt="">
+                                            16/03/2022
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/comment-icon.svg" alt="">
+                                            <span>80</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="thumb">
+                                    <a href="">
+                                        <img src="./images/home-new-01.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="desc">
+                                    <h3 class="title">
+                                        <a href="">
+                                            Lương tối thiểu không còn bảo vệ được người yếu thế
+                                        </a>
+                                    </h3>
+                                    <div class="content">
+                                        Ông Lê Đình Quảng, thành viên Hội đồng Tiền lương quốc gia nhận định, lương tối thiểu hiện quá thấp, nhưng để cân bằng mức chi trả của doanh nghiệp và quyền lợi của người lao động là bài toán khó.
+                                    </div>
+                                    <div class="new-info-cm d-flex align-items-center">
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/user-icon.svg" alt="">
+                                            Nguyễn Hằng
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/calender-icon.svg" alt="">
+                                            16/03/2022
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/comment-icon.svg" alt="">
+                                            <span>80</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 border-left">
+                        <aside class="wrap-aside">
+                            <h3 class="title">Covid 19 tại Việt Nam</h3>
+                            <table class="covid-19">
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th>18h00 - 16/03/2022</th>
+                                        <th>Thay đổi 7 ngày qua</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th>Nhiễm</th>
+                                        <td>175.468</td>
+                                        <td>+46%</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Nặng</th>
+                                        <td>4.269</td>
+                                        <td>0%</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Tử vong</th>
+                                        <td>68</td>
+                                        <td>-11%</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <a href="" class="covid-more-link">Xem tin tức về Covid 19 >></a>
+                            <ul class="tag__link">
+                                <li>
+                                    <a href="">
+                                        #Chăm sóc F0
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        #Chăm sóc F0
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        #Chăm sóc F0
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        #Chăm sóc F0
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="aside__banner">
+                                <a href="">
+                                    <img src="./images/banner-img-01.jpg" alt="">
+                                </a>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-block cat-news">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-4 border-right">
+                        <div class="title-section">
+                            <span>THỜI Sự</span>
+                            <span>
+                                <img src="./images/news-icon.svg" alt="">
+                            </span>
+                        </div>
+                        <ul class="news-cat__list first-item-not-img">
+                            <li>
+                                <h3 class="title">
+                                    <a href="">Dùng sà lan chở nước ngọt cho dân vùng hạn mặn</a>
+                                </h3>
+                                <div class="desc">
+                                    Ngành cấp nước Bến Tre dự kiến dùng sà lan chở gần 200.000 m3 nước ngọt trong ba tháng cho hàng chục nghìn hộ dân vùng hạn mặn ở huyện Giồng Trôm.
+                                </div>
+                            </li>
+                            <li>
+                                <h3 class="title">
+                                    <a href="">Bộ trưởng Trần Hồng Hà: Cần chế tài xử lý doanh nghiệp đấu giá đất rồi bỏ</a>
+                                </h3>
+                                <div class="desc">
+                                    Chỉ ra nguyên nhân dẫn đến tình trạng "thổi giá, dìm giá đất", Bộ trưởng Tài nguyên và Môi trường Trần Hồng Hà cho rằng cần có chế tài xử lý doanh nghiệp vi phạm.
+                                </div>
+                                <div class="new-info-cm d-flex align-items-center">
+                                    <div class="info d-flex align-items-center">
+                                        <img src="./images/user-icon.svg" alt="">
+                                        Nguyễn Hằng
+                                    </div>
+                                    <div class="info d-flex align-items-center">
+                                        <img src="./images/calender-icon.svg" alt="">
+                                        16/03/2022
+                                    </div>
+                                    <div class="info d-flex align-items-center">
+                                        <img src="./images/comment-icon.svg" alt="">
+                                        <span>80</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <h3 class="title">
+                                    <a href="">Bộ trưởng Trần Hồng Hà: Cần chế tài xử lý doanh nghiệp đấu giá đất rồi bỏ</a>
+                                </h3>
+                                <div class="desc">
+                                    Chỉ ra nguyên nhân dẫn đến tình trạng "thổi giá, dìm giá đất", Bộ trưởng Tài nguyên và Môi trường Trần Hồng Hà cho rằng cần có chế tài xử lý doanh nghiệp vi phạm.
+                                </div>
+                                <div class="new-info-cm d-flex align-items-center">
+                                    <div class="info d-flex align-items-center">
+                                        <img src="./images/user-icon.svg" alt="">
+                                        Nguyễn Hằng
+                                    </div>
+                                    <div class="info d-flex align-items-center">
+                                        <img src="./images/calender-icon.svg" alt="">
+                                        16/03/2022
+                                    </div>
+                                    <div class="info d-flex align-items-center">
+                                        <img src="./images/comment-icon.svg" alt="">
+                                        <span>80</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <h3 class="title">
+                                    <a href="">Bộ trưởng Trần Hồng Hà: Cần chế tài xử lý doanh nghiệp đấu giá đất rồi bỏ</a>
+                                </h3>
+                                <div class="desc">
+                                    Chỉ ra nguyên nhân dẫn đến tình trạng "thổi giá, dìm giá đất", Bộ trưởng Tài nguyên và Môi trường Trần Hồng Hà cho rằng cần có chế tài xử lý doanh nghiệp vi phạm.
+                                </div>
+                                <div class="new-info-cm d-flex align-items-center">
+                                    <div class="info d-flex align-items-center">
+                                        <img src="./images/user-icon.svg" alt="">
+                                        Nguyễn Hằng
+                                    </div>
+                                    <div class="info d-flex align-items-center">
+                                        <img src="./images/calender-icon.svg" alt="">
+                                        16/03/2022
+                                    </div>
+                                    <div class="info d-flex align-items-center">
+                                        <img src="./images/comment-icon.svg" alt="">
+                                        <span>80</span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-lg-4 border-right">
+                        <div class="title-section">
+                            <span>THẾ GIỚI</span>
+                            <span>
+                                <img src="./images/news-icon.svg" alt="">
+                            </span>
+                        </div>
+                        <ul class="news-cat__list ct-first-item">
+                            <li>
+                                <div class="thumb">
+                                    <a href="">
+                                        <img src="./images/home-new-01.jpg" alt="">
+                                    </a>
+                                </div>
+                                <h3 class="title">
+                                    <a href="">Bộ trưởng Trần Hồng Hà: Cần chế tài xử lý doanh nghiệp đấu giá đất rồi bỏ</a>
+                                </h3>
+                                <div class="desc">
+                                    Chỉ ra nguyên nhân dẫn đến tình trạng "thổi giá, dìm giá đất", Bộ trưởng Tài nguyên và Môi trường Trần Hồng Hà cho rằng cần có chế tài xử lý doanh nghiệp vi phạm.
+                                </div>
+                                <div class="new-info-cm d-flex align-items-center">
+                                    <div class="info d-flex align-items-center">
+                                        <img src="./images/user-icon.svg" alt="">
+                                        Nguyễn Hằng
+                                    </div>
+                                    <div class="info d-flex align-items-center">
+                                        <img src="./images/calender-icon.svg" alt="">
+                                        16/03/2022
+                                    </div>
+                                    <div class="info d-flex align-items-center">
+                                        <img src="./images/comment-icon.svg" alt="">
+                                        <span>80</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <h3 class="title">
+                                    <a href="">Bộ trưởng Trần Hồng Hà: Cần chế tài xử lý doanh nghiệp đấu giá đất rồi bỏ</a>
+                                </h3>
+                                <div class="desc">
+                                    Chỉ ra nguyên nhân dẫn đến tình trạng "thổi giá, dìm giá đất", Bộ trưởng Tài nguyên và Môi trường Trần Hồng Hà cho rằng cần có chế tài xử lý doanh nghiệp vi phạm.
+                                </div>
+                                <div class="new-info-cm d-flex align-items-center">
+                                    <div class="info d-flex align-items-center">
+                                        <img src="./images/user-icon.svg" alt="">
+                                        Nguyễn Hằng
+                                    </div>
+                                    <div class="info d-flex align-items-center">
+                                        <img src="./images/calender-icon.svg" alt="">
+                                        16/03/2022
+                                    </div>
+                                    <div class="info d-flex align-items-center">
+                                        <img src="./images/comment-icon.svg" alt="">
+                                        <span>80</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <h3 class="title">
+                                    <a href="">Bộ trưởng Trần Hồng Hà: Cần chế tài xử lý doanh nghiệp đấu giá đất rồi bỏ</a>
+                                </h3>
+                                <div class="desc">
+                                    Chỉ ra nguyên nhân dẫn đến tình trạng "thổi giá, dìm giá đất", Bộ trưởng Tài nguyên và Môi trường Trần Hồng Hà cho rằng cần có chế tài xử lý doanh nghiệp vi phạm.
+                                </div>
+                                <div class="new-info-cm d-flex align-items-center">
+                                    <div class="info d-flex align-items-center">
+                                        <img src="./images/user-icon.svg" alt="">
+                                        Nguyễn Hằng
+                                    </div>
+                                    <div class="info d-flex align-items-center">
+                                        <img src="./images/calender-icon.svg" alt="">
+                                        16/03/2022
+                                    </div>
+                                    <div class="info d-flex align-items-center">
+                                        <img src="./images/comment-icon.svg" alt="">
+                                        <span>80</span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="title-section">
+                            <span>PHÁP LUẬT</span>
+                            <span>
+                                <img src="./images/news-icon.svg" alt="">
+                            </span>
+                        </div>
+                        <ul class="news-cat__list first-item-not-img">
+                            <li>
+                                <h3 class="title">
+                                    <a href="">Dùng sà lan chở nước ngọt cho dân vùng hạn mặn</a>
+                                </h3>
+                                <div class="desc">
+                                    Ngành cấp nước Bến Tre dự kiến dùng sà lan chở gần 200.000 m3 nước ngọt trong ba tháng cho hàng chục nghìn hộ dân vùng hạn mặn ở huyện Giồng Trôm.
+                                </div>
+                            </li>
+                            <li>
+                                <h3 class="title">
+                                    <a href="">Bộ trưởng Trần Hồng Hà: Cần chế tài xử lý doanh nghiệp đấu giá đất rồi bỏ</a>
+                                </h3>
+                                <div class="desc">
+                                    Chỉ ra nguyên nhân dẫn đến tình trạng "thổi giá, dìm giá đất", Bộ trưởng Tài nguyên và Môi trường Trần Hồng Hà cho rằng cần có chế tài xử lý doanh nghiệp vi phạm.
+                                </div>
+                                <div class="new-info-cm d-flex align-items-center">
+                                    <div class="info d-flex align-items-center">
+                                        <img src="./images/user-icon.svg" alt="">
+                                        Nguyễn Hằng
+                                    </div>
+                                    <div class="info d-flex align-items-center">
+                                        <img src="./images/calender-icon.svg" alt="">
+                                        16/03/2022
+                                    </div>
+                                    <div class="info d-flex align-items-center">
+                                        <img src="./images/comment-icon.svg" alt="">
+                                        <span>80</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <h3 class="title">
+                                    <a href="">Bộ trưởng Trần Hồng Hà: Cần chế tài xử lý doanh nghiệp đấu giá đất rồi bỏ</a>
+                                </h3>
+                                <div class="desc">
+                                    Chỉ ra nguyên nhân dẫn đến tình trạng "thổi giá, dìm giá đất", Bộ trưởng Tài nguyên và Môi trường Trần Hồng Hà cho rằng cần có chế tài xử lý doanh nghiệp vi phạm.
+                                </div>
+                                <div class="new-info-cm d-flex align-items-center">
+                                    <div class="info d-flex align-items-center">
+                                        <img src="./images/user-icon.svg" alt="">
+                                        Nguyễn Hằng
+                                    </div>
+                                    <div class="info d-flex align-items-center">
+                                        <img src="./images/calender-icon.svg" alt="">
+                                        16/03/2022
+                                    </div>
+                                    <div class="info d-flex align-items-center">
+                                        <img src="./images/comment-icon.svg" alt="">
+                                        <span>80</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <h3 class="title">
+                                    <a href="">Bộ trưởng Trần Hồng Hà: Cần chế tài xử lý doanh nghiệp đấu giá đất rồi bỏ</a>
+                                </h3>
+                                <div class="desc">
+                                    Chỉ ra nguyên nhân dẫn đến tình trạng "thổi giá, dìm giá đất", Bộ trưởng Tài nguyên và Môi trường Trần Hồng Hà cho rằng cần có chế tài xử lý doanh nghiệp vi phạm.
+                                </div>
+                                <div class="new-info-cm d-flex align-items-center">
+                                    <div class="info d-flex align-items-center">
+                                        <img src="./images/user-icon.svg" alt="">
+                                        Nguyễn Hằng
+                                    </div>
+                                    <div class="info d-flex align-items-center">
+                                        <img src="./images/calender-icon.svg" alt="">
+                                        16/03/2022
+                                    </div>
+                                    <div class="info d-flex align-items-center">
+                                        <img src="./images/comment-icon.svg" alt="">
+                                        <span>80</span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-block home-banner">
+            <div class="container">
+                <a href="">
+                    <img src="./images/banner-img-02.jpg" alt="">
+                </a>
+            </div>
+        </section>
+        <section class="section-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-8">
+                        <div class="title-section">
+                            <span>GÓC NHÌN</span>
+                            <span>
+                                <img src="./images/news-icon.svg" alt="">
+                            </span>
+                        </div>
+                        <ul class="viewer-cm">
+                            <li>
+                                <div class="desc">
+                                    <h3 class="title">
+                                        <a href="">
+                                            Sốt đất và đánh thuế
+                                        </a>
+                                    </h3>
+                                    <div class="text">
+                                        Đề xuất thuế bất động sản - trong bối cảnh tổng thu thuế nhà đất ở Việt Nam còn thấp - là điều hợp lý, nhưng không dễ thực hiện ngay.
+                                    </div>
+                                    <div class="new-info-cm d-flex align-items-center">
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/calender-icon.svg" alt="">
+                                            16/03/2022
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/comment-icon.svg" alt="">
+                                            <span>80</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="avatar d-flex flex-column">
+                                    <img src="./images/viewer-img.png" alt="">
+                                    Đặng Hùng Võ
+                                </div>
+                            </li>
+                            <li>
+                                <div class="desc">
+                                    <h3 class="title">
+                                        <a href="">
+                                            Sốt đất và đánh thuế
+                                        </a>
+                                    </h3>
+                                    <div class="text">
+                                        Đề xuất thuế bất động sản - trong bối cảnh tổng thu thuế nhà đất ở Việt Nam còn thấp - là điều hợp lý, nhưng không dễ thực hiện ngay.
+                                    </div>
+                                    <div class="new-info-cm d-flex align-items-center">
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/calender-icon.svg" alt="">
+                                            16/03/2022
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/comment-icon.svg" alt="">
+                                            <span>80</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="avatar d-flex flex-column">
+                                    <img src="./images/viewer-img.png" alt="">
+                                    Đặng Hùng Võ
+                                </div>
+                            </li>
+                            <li>
+                                <div class="desc">
+                                    <h3 class="title">
+                                        <a href="">
+                                            Sốt đất và đánh thuế
+                                        </a>
+                                    </h3>
+                                    <div class="text">
+                                        Đề xuất thuế bất động sản - trong bối cảnh tổng thu thuế nhà đất ở Việt Nam còn thấp - là điều hợp lý, nhưng không dễ thực hiện ngay.
+                                    </div>
+                                    <div class="new-info-cm d-flex align-items-center">
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/calender-icon.svg" alt="">
+                                            16/03/2022
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/comment-icon.svg" alt="">
+                                            <span>80</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="avatar d-flex flex-column">
+                                    <img src="./images/viewer-img.png" alt="">
+                                    Đặng Hùng Võ
+                                </div>
+                            </li>
+                            <li>
+                                <div class="desc">
+                                    <h3 class="title">
+                                        <a href="">
+                                            Sốt đất và đánh thuế
+                                        </a>
+                                    </h3>
+                                    <div class="text">
+                                        Đề xuất thuế bất động sản - trong bối cảnh tổng thu thuế nhà đất ở Việt Nam còn thấp - là điều hợp lý, nhưng không dễ thực hiện ngay.
+                                    </div>
+                                    <div class="new-info-cm d-flex align-items-center">
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/calender-icon.svg" alt="">
+                                            16/03/2022
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/comment-icon.svg" alt="">
+                                            <span>80</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="avatar d-flex flex-column">
+                                    <img src="./images/viewer-img.png" alt="">
+                                    Đặng Hùng Võ
+                                </div>
+                            </li>
+                            <li>
+                                <div class="desc">
+                                    <h3 class="title">
+                                        <a href="">
+                                            Sốt đất và đánh thuế
+                                        </a>
+                                    </h3>
+                                    <div class="text">
+                                        Đề xuất thuế bất động sản - trong bối cảnh tổng thu thuế nhà đất ở Việt Nam còn thấp - là điều hợp lý, nhưng không dễ thực hiện ngay.
+                                        Đề xuất thuế bất động sản - trong bối cảnh tổng thu thuế nhà đất ở Việt Nam còn thấp - là điều hợp lý, nhưng không dễ thực hiện ngay.
+                                    </div>
+                                    <div class="new-info-cm d-flex align-items-center">
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/calender-icon.svg" alt="">
+                                            16/03/2022
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/comment-icon.svg" alt="">
+                                            <span>80</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="avatar d-flex flex-column">
+                                    <img src="./images/viewer-img.png" alt="">
+                                    Đặng Hùng Võ
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 border-left">
+                        <aside class="wrap-aside">
+                            <div class="aside-block block-bg">
+                                <h3 class="title ct--color">Thăm dò ý kiến</h3>
+                                <form class="f-poll">
+                                    <h4 class="question">Bộ Y tế vừa đề xuất phương án đi làm cho trường hợp F0, F1 đang trong thời gian cách ly. Theo bạn:</h4>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                        <label class="form-check-label" for="defaultCheck1">
+                                          Nên
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                                        <label class="form-check-label" for="defaultCheck2">
+                                            Không nên
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+                                        <label class="form-check-label" for="defaultCheck3">
+                                            Ý kiến khác
+                                        </label>
+                                    </div>
+                                    <div class="submit mt-4 d-flex align-items-center">
+                                        <button class="bt-sm">
+                                            Gửi kết quả
+                                        </button>
+                                        <button class="bt-sm bt-sm-ct">
+                                            Xem kết quả
+                                        </button>
+                                    </div>
+                                </form>
+
+                                <div class="number-people mt-3">
+                                    Đã có <strong>20.000</strong> người tham gia
+                                </div>
+                            </div>
+                            <div class="aside__banner">
+                                <a href="">
+                                    <img src="./images/banner-img-03.jpg" alt="">
+                                </a>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-block section-news">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-4 border-right">
+                        <div class="title-section">
+                            <span>GIÁO DỤC</span>
+                            <span>
+                                <img src="./images/news-icon.svg" alt="">
+                            </span>
+                        </div>
+                        <ul class="news__list">
+                            <li>
+                                <div class="thumb">
+                                    <a href="">
+                                        <img src="./images/hot-new-img.jpg" alt="">
+                                    </a>
+                                </div>
+                                <h4 class="title">
+                                    <a href="">
+                                        Chênh lệch điểm chuẩn vào lớp 10 của bốn trường tốp đầu Hà Nội Chênh lệch điểm chuẩn vào lớp 10 của bốn trường tốp đầu Hà Nội
+                                    </a>
+                                </h4>
+                            </li>
+                            <li>
+                                <div class="thumb">
+                                    <a href="">
+                                        <img src="./images/hot-new-img.jpg" alt="">
+                                    </a>
+                                </div>
+                                <h4 class="title">
+                                    <a href="">
+                                        Chênh lệch điểm chuẩn vào lớp 10 của bốn trường tốp đầu Hà Nội
+                                    </a>
+                                </h4>
+                            </li>
+                            <li>
+                                <div class="thumb">
+                                    <a href="">
+                                        <img src="./images/hot-new-img.jpg" alt="">
+                                    </a>
+                                </div>
+                                <h4 class="title">
+                                    <a href="">
+                                        Chênh lệch điểm chuẩn vào lớp 10 của bốn trường tốp đầu Hà Nội
+                                    </a>
+                                </h4>
+                            </li>
+                            <li>
+                                <div class="thumb">
+                                    <a href="">
+                                        <img src="./images/hot-new-img.jpg" alt="">
+                                    </a>
+                                </div>
+                                <h4 class="title">
+                                    <a href="">
+                                        Chênh lệch điểm chuẩn vào lớp 10 của bốn trường tốp đầu Hà Nội
+                                    </a>
+                                </h4>
+                            </li>
+                        </ul>    
+                    </div> 
+                    <div class="col-12 col-lg-4 border-right">
+                        <div class="title-section">
+                            <span>SỨC KHOẺ</span>
+                            <span>
+                                <img src="./images/news-icon.svg" alt="">
+                            </span>
+                        </div>
+                        <ul class="news__list">
+                            <li>
+                                <div class="thumb">
+                                    <a href="">
+                                        <img src="./images/hot-new-img.jpg" alt="">
+                                    </a>
+                                </div>
+                                <h4 class="title">
+                                    <a href="">
+                                        Chênh lệch điểm chuẩn vào lớp 10 của bốn trường tốp đầu Hà Nội Chênh lệch điểm chuẩn vào lớp 10 của bốn trường tốp đầu Hà Nội
+                                    </a>
+                                </h4>
+                            </li>
+                            <li>
+                                <div class="thumb">
+                                    <a href="">
+                                        <img src="./images/hot-new-img.jpg" alt="">
+                                    </a>
+                                </div>
+                                <h4 class="title">
+                                    <a href="">
+                                        Chênh lệch điểm chuẩn vào lớp 10 của bốn trường tốp đầu Hà Nội
+                                    </a>
+                                </h4>
+                            </li>
+                            <li>
+                                <div class="thumb">
+                                    <a href="">
+                                        <img src="./images/hot-new-img.jpg" alt="">
+                                    </a>
+                                </div>
+                                <h4 class="title">
+                                    <a href="">
+                                        Chênh lệch điểm chuẩn vào lớp 10 của bốn trường tốp đầu Hà Nội
+                                    </a>
+                                </h4>
+                            </li>
+                            <li>
+                                <div class="thumb">
+                                    <a href="">
+                                        <img src="./images/hot-new-img.jpg" alt="">
+                                    </a>
+                                </div>
+                                <h4 class="title">
+                                    <a href="">
+                                        Chênh lệch điểm chuẩn vào lớp 10 của bốn trường tốp đầu Hà Nội
+                                    </a>
+                                </h4>
+                            </li>
+                        </ul>  
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="title-section">
+                            <span>ĐỜI SỐNG</span>
+                            <span>
+                                <img src="./images/news-icon.svg" alt="">
+                            </span>
+                        </div>
+                        <ul class="news__list">
+                            <li>
+                                <div class="thumb">
+                                    <a href="">
+                                        <img src="./images/hot-new-img.jpg" alt="">
+                                    </a>
+                                </div>
+                                <h4 class="title">
+                                    <a href="">
+                                        Chênh lệch điểm chuẩn vào lớp 10 của bốn trường tốp đầu Hà Nội Chênh lệch điểm chuẩn vào lớp 10 của bốn trường tốp đầu Hà Nội
+                                    </a>
+                                </h4>
+                            </li>
+                            <li>
+                                <div class="thumb">
+                                    <a href="">
+                                        <img src="./images/hot-new-img.jpg" alt="">
+                                    </a>
+                                </div>
+                                <h4 class="title">
+                                    <a href="">
+                                        Chênh lệch điểm chuẩn vào lớp 10 của bốn trường tốp đầu Hà Nội
+                                    </a>
+                                </h4>
+                            </li>
+                            <li>
+                                <div class="thumb">
+                                    <a href="">
+                                        <img src="./images/hot-new-img.jpg" alt="">
+                                    </a>
+                                </div>
+                                <h4 class="title">
+                                    <a href="">
+                                        Chênh lệch điểm chuẩn vào lớp 10 của bốn trường tốp đầu Hà Nội
+                                    </a>
+                                </h4>
+                            </li>
+                            <li>
+                                <div class="thumb">
+                                    <a href="">
+                                        <img src="./images/hot-new-img.jpg" alt="">
+                                    </a>
+                                </div>
+                                <h4 class="title">
+                                    <a href="">
+                                        Chênh lệch điểm chuẩn vào lớp 10 của bốn trường tốp đầu Hà Nội
+                                    </a>
+                                </h4>
+                            </li>
+                        </ul>  
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-block most-view">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <div class="title-section">
+                            <span>KINH DOANH</span>
+                            <span>
+                                <img src="./images/news-icon.svg" alt="">
+                            </span>
+                        </div>
+                        <ul class="most-view__list">
+                            <li>
+                                <div class="thumb">
+                                    <a href="">
+                                        <img src="./images/home-new-01.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="desc">
+                                    <h3 class="title">
+                                        <a href="">
+                                            Lạm phát đã đến hay mới là nỗi sợ?
+                                        </a>
+                                    </h3>
+                                    <div class="content">
+                                        Giá cả tăng vọt đang khiến nhiều người dân tin lạm phát đang bủa vây nhưng giới phân tích lại cho rằng, mọi thứ vẫn trong tầm kiểm soát.
+                                    </div>
+                                    <div class="new-info-cm d-flex align-items-center">
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/user-icon.svg" alt="">
+                                            Nguyễn Hằng
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/calender-icon.svg" alt="">
+                                            16/03/2022
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/comment-icon.svg" alt="">
+                                            <span>80</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="thumb">
+                                    <a href="">
+                                        <img src="./images/home-new-01.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="desc">
+                                    <h3 class="title">
+                                        <a href="">
+                                            Lương tối thiểu không còn bảo vệ được người yếu thế
+                                        </a>
+                                    </h3>
+                                    <div class="content">
+                                        Ông Lê Đình Quảng, thành viên Hội đồng Tiền lương quốc gia nhận định, lương tối thiểu hiện quá thấp, nhưng để cân bằng mức chi trả của doanh nghiệp và quyền lợi của người lao động là bài toán khó.
+                                    </div>
+                                    <div class="new-info-cm d-flex align-items-center">
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/user-icon.svg" alt="">
+                                            Nguyễn Hằng
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/calender-icon.svg" alt="">
+                                            16/03/2022
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/comment-icon.svg" alt="">
+                                            <span>80</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="thumb">
+                                    <a href="">
+                                        <img src="./images/home-new-01.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="desc">
+                                    <h3 class="title">
+                                        <a href="">
+                                            Lương tối thiểu không còn bảo vệ được người yếu thế
+                                        </a>
+                                    </h3>
+                                    <div class="content">
+                                        Ông Lê Đình Quảng, thành viên Hội đồng Tiền lương quốc gia nhận định, lương tối thiểu hiện quá thấp, nhưng để cân bằng mức chi trả của doanh nghiệp và quyền lợi của người lao động là bài toán khó.
+                                    </div>
+                                    <div class="new-info-cm d-flex align-items-center">
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/user-icon.svg" alt="">
+                                            Nguyễn Hằng
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/calender-icon.svg" alt="">
+                                            16/03/2022
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/comment-icon.svg" alt="">
+                                            <span>80</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="thumb">
+                                    <a href="">
+                                        <img src="./images/home-new-01.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="desc">
+                                    <h3 class="title">
+                                        <a href="">
+                                            Lương tối thiểu không còn bảo vệ được người yếu thế
+                                        </a>
+                                    </h3>
+                                    <div class="content">
+                                        Ông Lê Đình Quảng, thành viên Hội đồng Tiền lương quốc gia nhận định, lương tối thiểu hiện quá thấp, nhưng để cân bằng mức chi trả của doanh nghiệp và quyền lợi của người lao động là bài toán khó.
+                                    </div>
+                                    <div class="new-info-cm d-flex align-items-center">
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/user-icon.svg" alt="">
+                                            Nguyễn Hằng
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/calender-icon.svg" alt="">
+                                            16/03/2022
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/comment-icon.svg" alt="">
+                                            <span>80</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="title-section">
+                            <span>GIẢI TRÍ</span>
+                            <span>
+                                <img src="./images/news-icon.svg" alt="">
+                            </span>
+                        </div>
+                        <ul class="most-view__list">
+                            <li>
+                                <div class="thumb">
+                                    <a href="">
+                                        <img src="./images/home-new-01.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="desc">
+                                    <h3 class="title">
+                                        <a href="">
+                                            Người đẹp Ba Lan đăng quang Miss World 2021
+                                        </a>
+                                    </h3>
+                                    <div class="content">
+                                        Giá cả tăng vọt đang khiến nhiều người dân tin lạm phát đang bủa vây nhưng giới phân tích lại cho rằng, mọi thứ vẫn trong tầm kiểm soát.
+                                    </div>
+                                    <div class="new-info-cm d-flex align-items-center">
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/user-icon.svg" alt="">
+                                            Nguyễn Hằng
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/calender-icon.svg" alt="">
+                                            16/03/2022
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/comment-icon.svg" alt="">
+                                            <span>80</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <ul class="most-view__list-more">
+                            <li>
+                                <a href="">Người đẹp Ba Lan đăng quang Miss World 2021</a>
+                            </li>
+                            <li>
+                                <a href="">Người đẹp Ba Lan đăng quang Miss World 2021</a>
+                            </li>
+                        </ul>
+                        <div class="title-section">
+                            <span>THỂ THAO</span>
+                            <span>
+                                <img src="./images/news-icon.svg" alt="">
+                            </span>
+                        </div>
+                        <ul class="most-view__list">
+                            <li>
+                                <div class="thumb">
+                                    <a href="">
+                                        <img src="./images/home-new-01.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="desc">
+                                    <h3 class="title">
+                                        <a href="">
+                                            Chelsea vào tứ kết Champions League
+                                        </a>
+                                    </h3>
+                                    <div class="content">
+                                        Giá cả tăng vọt đang khiến nhiều người dân tin lạm phát đang bủa vây nhưng giới phân tích lại cho rằng, mọi thứ vẫn trong tầm kiểm soát.
+                                    </div>
+                                    <div class="new-info-cm d-flex align-items-center">
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/user-icon.svg" alt="">
+                                            Nguyễn Hằng
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/calender-icon.svg" alt="">
+                                            16/03/2022
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/comment-icon.svg" alt="">
+                                            <span>80</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="most-view__list-more">
+                            <li>
+                                <a href="">Người đẹp Ba Lan đăng quang Miss World 2021</a>
+                            </li>
+                            <li>
+                                <a href="">Người đẹp Ba Lan đăng quang Miss World 2021</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="video-section">
+            <div class="container">
+                <div class="title-row d-flex align-items-center justify-content-between">
+                    <div class="item d-flex align-items-center">
+                        <img src="./images/video-icon.svg" alt="">
+                        <strong>VIDEO</strong>
+                    </div>
+                    <div class="item d-flex align-items-center">
+                        <span>Theo dõi VMMS trên</span>
+                        <img src="./images/ytb-big-icon.png" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-lg-8">
+                        <div class="video-play">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/xTG7sW7KuDU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <h3 class="title">Khách đổ đến khu phố đêm Hà Nội sau lệnh mở cửa</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 wrap-video__list">
+                        <ul class="video__list">
+                            <li>
+                                <div class="thumb">
+                                    <a href="">
+                                        <img src="./images/home-new-01.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="desc">
+                                    <h3 class="title">
+                                        <a href="">Gánh ghẹ bán vỉa hè thu chục triệu mỗi ngày Gánh ghẹ bán vỉa hè thu chục triệu mỗi ngày</a>
+                                    </h3>
+                                    <div class="cat">ẨM THỰC</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="thumb">
+                                    <a href="">
+                                        <img src="./images/home-new-01.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="desc">
+                                    <h3 class="title"> 
+                                        <a href="">Gánh ghẹ bán vỉa hè thu chục triệu mỗi ngày</a>
+                                    </h3>
+                                    <div class="cat">ẨM THỰC</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="thumb">
+                                    <a href="">
+                                        <img src="./images/home-new-01.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="desc">
+                                    <h3 class="title">
+                                        <a href="">Gánh ghẹ bán vỉa hè thu chục triệu mỗi ngày</a>
+                                    </h3>
+                                    <div class="cat">ẨM THỰC</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="thumb">
+                                    <a href="">
+                                        <img src="./images/home-new-01.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="desc">
+                                    <h3 class="title">
+                                        <a href="">Gánh ghẹ bán vỉa hè thu chục triệu mỗi ngày</a>
+                                    </h3>
+                                    <div class="cat">ẨM THỰC</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="thumb">
+                                    <a href="">
+                                        <img src="./images/home-new-01.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="desc">
+                                    <h3 class="title">
+                                        <a href="">Gánh ghẹ bán vỉa hè thu chục triệu mỗi ngày</a>
+                                    </h3>
+                                    <div class="cat">ẨM THỰC</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="thumb">
+                                    <a href="">
+                                        <img src="./images/home-new-01.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="desc">
+                                    <h3 class="title">
+                                        <a href="">Gánh ghẹ bán vỉa hè thu chục triệu mỗi ngày</a>
+                                    </h3>
+                                    <div class="cat">ẨM THỰC</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-block most-view">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <div class="title-section">
+                            <span>DU LỊCH</span>
+                            <span>
+                                <img src="./images/news-icon.svg" alt="">
+                            </span>
+                        </div>
+                        <ul class="most-view__list">
+                            <li>
+                                <div class="thumb">
+                                    <a href="">
+                                        <img src="./images/home-new-01.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="desc">
+                                    <h3 class="title">
+                                        <a href="">
+                                            Lạm phát đã đến hay mới là nỗi sợ?
+                                        </a>
+                                    </h3>
+                                    <div class="content">
+                                        Giá cả tăng vọt đang khiến nhiều người dân tin lạm phát đang bủa vây nhưng giới phân tích lại cho rằng, mọi thứ vẫn trong tầm kiểm soát.
+                                    </div>
+                                    <div class="new-info-cm d-flex align-items-center">
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/user-icon.svg" alt="">
+                                            Nguyễn Hằng
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/calender-icon.svg" alt="">
+                                            16/03/2022
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/comment-icon.svg" alt="">
+                                            <span>80</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="thumb">
+                                    <a href="">
+                                        <img src="./images/home-new-01.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="desc">
+                                    <h3 class="title">
+                                        <a href="">
+                                            Lương tối thiểu không còn bảo vệ được người yếu thế
+                                        </a>
+                                    </h3>
+                                    <div class="content">
+                                        Ông Lê Đình Quảng, thành viên Hội đồng Tiền lương quốc gia nhận định, lương tối thiểu hiện quá thấp, nhưng để cân bằng mức chi trả của doanh nghiệp và quyền lợi của người lao động là bài toán khó.
+                                    </div>
+                                    <div class="new-info-cm d-flex align-items-center">
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/user-icon.svg" alt="">
+                                            Nguyễn Hằng
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/calender-icon.svg" alt="">
+                                            16/03/2022
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/comment-icon.svg" alt="">
+                                            <span>80</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="thumb">
+                                    <a href="">
+                                        <img src="./images/home-new-01.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="desc">
+                                    <h3 class="title">
+                                        <a href="">
+                                            Lương tối thiểu không còn bảo vệ được người yếu thế
+                                        </a>
+                                    </h3>
+                                    <div class="content">
+                                        Ông Lê Đình Quảng, thành viên Hội đồng Tiền lương quốc gia nhận định, lương tối thiểu hiện quá thấp, nhưng để cân bằng mức chi trả của doanh nghiệp và quyền lợi của người lao động là bài toán khó.
+                                    </div>
+                                    <div class="new-info-cm d-flex align-items-center">
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/user-icon.svg" alt="">
+                                            Nguyễn Hằng
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/calender-icon.svg" alt="">
+                                            16/03/2022
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/comment-icon.svg" alt="">
+                                            <span>80</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="thumb">
+                                    <a href="">
+                                        <img src="./images/home-new-01.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="desc">
+                                    <h3 class="title">
+                                        <a href="">
+                                            Lương tối thiểu không còn bảo vệ được người yếu thế
+                                        </a>
+                                    </h3>
+                                    <div class="content">
+                                        Ông Lê Đình Quảng, thành viên Hội đồng Tiền lương quốc gia nhận định, lương tối thiểu hiện quá thấp, nhưng để cân bằng mức chi trả của doanh nghiệp và quyền lợi của người lao động là bài toán khó.
+                                    </div>
+                                    <div class="new-info-cm d-flex align-items-center">
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/user-icon.svg" alt="">
+                                            Nguyễn Hằng
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/calender-icon.svg" alt="">
+                                            16/03/2022
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/comment-icon.svg" alt="">
+                                            <span>80</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="title-section">
+                            <span>KHOA HỌC</span>
+                            <span>
+                                <img src="./images/news-icon.svg" alt="">
+                            </span>
+                        </div>
+                        <ul class="most-view__list">
+                            <li>
+                                <div class="thumb">
+                                    <a href="">
+                                        <img src="./images/home-new-01.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="desc">
+                                    <h3 class="title">
+                                        <a href="">
+                                            Lạm phát đã đến hay mới là nỗi sợ?
+                                        </a>
+                                    </h3>
+                                    <div class="content">
+                                        Giá cả tăng vọt đang khiến nhiều người dân tin lạm phát đang bủa vây nhưng giới phân tích lại cho rằng, mọi thứ vẫn trong tầm kiểm soát.
+                                    </div>
+                                    <div class="new-info-cm d-flex align-items-center">
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/user-icon.svg" alt="">
+                                            Nguyễn Hằng
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/calender-icon.svg" alt="">
+                                            16/03/2022
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/comment-icon.svg" alt="">
+                                            <span>80</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="thumb">
+                                    <a href="">
+                                        <img src="./images/home-new-01.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="desc">
+                                    <h3 class="title">
+                                        <a href="">
+                                            Lương tối thiểu không còn bảo vệ được người yếu thế
+                                        </a>
+                                    </h3>
+                                    <div class="content">
+                                        Ông Lê Đình Quảng, thành viên Hội đồng Tiền lương quốc gia nhận định, lương tối thiểu hiện quá thấp, nhưng để cân bằng mức chi trả của doanh nghiệp và quyền lợi của người lao động là bài toán khó.
+                                    </div>
+                                    <div class="new-info-cm d-flex align-items-center">
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/user-icon.svg" alt="">
+                                            Nguyễn Hằng
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/calender-icon.svg" alt="">
+                                            16/03/2022
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/comment-icon.svg" alt="">
+                                            <span>80</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="thumb">
+                                    <a href="">
+                                        <img src="./images/home-new-01.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="desc">
+                                    <h3 class="title">
+                                        <a href="">
+                                            Lương tối thiểu không còn bảo vệ được người yếu thế
+                                        </a>
+                                    </h3>
+                                    <div class="content">
+                                        Ông Lê Đình Quảng, thành viên Hội đồng Tiền lương quốc gia nhận định, lương tối thiểu hiện quá thấp, nhưng để cân bằng mức chi trả của doanh nghiệp và quyền lợi của người lao động là bài toán khó.
+                                    </div>
+                                    <div class="new-info-cm d-flex align-items-center">
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/user-icon.svg" alt="">
+                                            Nguyễn Hằng
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/calender-icon.svg" alt="">
+                                            16/03/2022
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/comment-icon.svg" alt="">
+                                            <span>80</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="thumb">
+                                    <a href="">
+                                        <img src="./images/home-new-01.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="desc">
+                                    <h3 class="title">
+                                        <a href="">
+                                            Lương tối thiểu không còn bảo vệ được người yếu thế
+                                        </a>
+                                    </h3>
+                                    <div class="content">
+                                        Ông Lê Đình Quảng, thành viên Hội đồng Tiền lương quốc gia nhận định, lương tối thiểu hiện quá thấp, nhưng để cân bằng mức chi trả của doanh nghiệp và quyền lợi của người lao động là bài toán khó.
+                                    </div>
+                                    <div class="new-info-cm d-flex align-items-center">
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/user-icon.svg" alt="">
+                                            Nguyễn Hằng
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/calender-icon.svg" alt="">
+                                            16/03/2022
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/comment-icon.svg" alt="">
+                                            <span>80</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-block one-cat-layout">
+            <div class="container">
+                <div class="title-section">
+                    <span>XE</span>
+                    <span>
+                        <img src="./images/news-icon.svg" alt="">
+                    </span>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 border-right">
+                        <div class="new__item-big">
+                            <div class="thumb">
+                                <a href="">
+                                    <img src="./images/home-new-01.jpg" alt="">
+                                </a>
+                            </div>
+                            <h3 class="title">
+                                <a href="">
+                                    Hyundai Creta hay Kia Seltos - cuộc chiến xe Hàn tại Việt Nam Hyundai Creta hay Kia Seltos - cuộc chiến xe Hàn tại Việt Nam
+                                </a>
+                            </h3>
+                            <div class="desc">
+                                Nửa cuối tháng 3, hàng chục doanh nghiệp xi măng đồng loạt tăng giá bán từ 100.000 đồng một tấn để kịp tốc độ tăng nguyên liệu đầu vào.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <ul class="viewer-cm">
+                            <li>
+                                <div class="desc pr-0">
+                                    <h3 class="title">
+                                        <a href="">
+                                            Sốt đất và đánh thuế
+                                        </a>
+                                    </h3>
+                                    <div class="text">
+                                        Đề xuất thuế bất động sản - trong bối cảnh tổng thu thuế nhà đất ở Việt Nam còn thấp - là điều hợp lý, nhưng không dễ thực hiện ngay.
+                                    </div>
+                                    <div class="new-info-cm d-flex align-items-center">
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/calender-icon.svg" alt="">
+                                            16/03/2022
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/comment-icon.svg" alt="">
+                                            <span>80</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="desc pr-0">
+                                    <h3 class="title">
+                                        <a href="">
+                                            Sốt đất và đánh thuế
+                                        </a>
+                                    </h3>
+                                    <div class="text">
+                                        Đề xuất thuế bất động sản - trong bối cảnh tổng thu thuế nhà đất ở Việt Nam còn thấp - là điều hợp lý, nhưng không dễ thực hiện ngay.
+                                    </div>
+                                    <div class="new-info-cm d-flex align-items-center">
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/calender-icon.svg" alt="">
+                                            16/03/2022
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/comment-icon.svg" alt="">
+                                            <span>80</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="desc pr-0">
+                                    <h3 class="title">
+                                        <a href="">
+                                            Sốt đất và đánh thuế
+                                        </a>
+                                    </h3>
+                                    <div class="text">
+                                        Đề xuất thuế bất động sản - trong bối cảnh tổng thu thuế nhà đất ở Việt Nam còn thấp - là điều hợp lý, nhưng không dễ thực hiện ngay.
+                                    </div>
+                                    <div class="new-info-cm d-flex align-items-center">
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/calender-icon.svg" alt="">
+                                            16/03/2022
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/comment-icon.svg" alt="">
+                                            <span>80</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-block one-cat-layout">
+            <div class="container">
+                <div class="title-section">
+                    <span>SỐ HOÁ</span>
+                    <span>
+                        <img src="./images/news-icon.svg" alt="">
+                    </span>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 border-right">
+                        <div class="new__item-big">
+                            <div class="thumb">
+                                <a href="">
+                                    <img src="./images/home-new-01.jpg" alt="">
+                                </a>
+                            </div>
+                            <h3 class="title">
+                                <a href="">
+                                    Hyundai Creta hay Kia Seltos - cuộc chiến xe Hàn tại Việt Nam Hyundai Creta hay Kia Seltos - cuộc chiến xe Hàn tại Việt Nam
+                                </a>
+                            </h3>
+                            <div class="desc">
+                                Nửa cuối tháng 3, hàng chục doanh nghiệp xi măng đồng loạt tăng giá bán từ 100.000 đồng một tấn để kịp tốc độ tăng nguyên liệu đầu vào.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <ul class="viewer-cm">
+                            <li>
+                                <div class="desc pr-0">
+                                    <h3 class="title">
+                                        <a href="">
+                                            Sốt đất và đánh thuế
+                                        </a>
+                                    </h3>
+                                    <div class="text">
+                                        Đề xuất thuế bất động sản - trong bối cảnh tổng thu thuế nhà đất ở Việt Nam còn thấp - là điều hợp lý, nhưng không dễ thực hiện ngay.
+                                    </div>
+                                    <div class="new-info-cm d-flex align-items-center">
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/calender-icon.svg" alt="">
+                                            16/03/2022
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/comment-icon.svg" alt="">
+                                            <span>80</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="desc pr-0">
+                                    <h3 class="title">
+                                        <a href="">
+                                            Sốt đất và đánh thuế
+                                        </a>
+                                    </h3>
+                                    <div class="text">
+                                        Đề xuất thuế bất động sản - trong bối cảnh tổng thu thuế nhà đất ở Việt Nam còn thấp - là điều hợp lý, nhưng không dễ thực hiện ngay.
+                                    </div>
+                                    <div class="new-info-cm d-flex align-items-center">
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/calender-icon.svg" alt="">
+                                            16/03/2022
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/comment-icon.svg" alt="">
+                                            <span>80</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="desc pr-0">
+                                    <h3 class="title">
+                                        <a href="">
+                                            Sốt đất và đánh thuế
+                                        </a>
+                                    </h3>
+                                    <div class="text">
+                                        Đề xuất thuế bất động sản - trong bối cảnh tổng thu thuế nhà đất ở Việt Nam còn thấp - là điều hợp lý, nhưng không dễ thực hiện ngay.
+                                    </div>
+                                    <div class="new-info-cm d-flex align-items-center">
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/calender-icon.svg" alt="">
+                                            16/03/2022
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/comment-icon.svg" alt="">
+                                            <span>80</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-block one-cat-layout-bg">
+            <div class="container">
+                <div class="title-section">
+                    <span>TÂM SỰ</span>
+                    <span>
+                        <img src="./images/news-icon.svg" alt="">
+                    </span>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-lg-8">
+                        <div class="new__item-big">
+                            <h3 class="title">
+                                Phân vân giữa hai người đàn ông yêu tôi thật lòng
+                            </h3>
+                            <div class="desc">
+                                Tôi 28 tuổi, độ tuổi đẹp để lập gia đình nhưng không tự quyết được chuyện tình yêu, như đứng ở ngã ba đường. Học xong lớp 12, bạn bè ôn thi đại học thì tôi chọn con đường xuất khẩu lao động sang Nhật. Sang đây tôi mới biết họ làm việc rất chuyên nghiệp, dành nhiều thời gian cho công việc; tôi dần hòa nhập và thấy phù hợp với tính cách mình. Ngoài thời gian ngủ sáu tiếng, tôi chỉ làm và học thêm nâng cao kiến thức. Hai năm tôi lao động ở Nhật, ba mẹ xây được nhà, bản thân cũng tranh thủ kiếm thêm gửi về cho ba mẹ mua đất để dành. Năm 26 tuổi, tôi về Việt Nam, làm trợ lý giám đốc kiêm phiên dịch cho công ty Nhật Bản tại TP HCM đến giờ. Tôi có nhà riêng, lương khá cao, vẫn chăm chỉ làm để tích cóp cho tương lai. Nói về người yêu, anh quen tôi hơn một năm trước, là kĩ sư dầu khí, 34 tuổi, cứ mỗi tháng anh đi biển nửa tháng và nửa tháng về bờ, ở nhà kinh doanh thiết bị công nghiệp. Tôi đang phụ anh và...
+                            </div>
+                            <a href="" class="read-more">Đọc tiếp >></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <ul class="viewer-cm">
+                            <li>
+                                <div class="desc pr-0">
+                                    <h3 class="title">
+                                        <a href="">
+                                            Sốt đất và đánh thuế
+                                        </a>
+                                    </h3>
+                                    <div class="text">
+                                        Đề xuất thuế bất động sản - trong bối cảnh tổng thu thuế nhà đất ở Việt Nam còn thấp - là điều hợp lý, nhưng không dễ thực hiện ngay. 
+                                        Đề xuất thuế bất động sản - trong bối cảnh tổng thu thuế nhà đất ở Việt Nam còn thấp - là điều hợp lý, nhưng không dễ thực hiện ngay.
+                                    </div>
+                                    <div class="new-info-cm d-flex align-items-center">
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/calender-icon.svg" alt="">
+                                            16/03/2022
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/comment-icon.svg" alt="">
+                                            <span>80</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="desc pr-0">
+                                    <h3 class="title">
+                                        <a href="">
+                                            Sốt đất và đánh thuế
+                                        </a>
+                                    </h3>
+                                    <div class="text">
+                                        Đề xuất thuế bất động sản - trong bối cảnh tổng thu thuế nhà đất ở Việt Nam còn thấp - là điều hợp lý, nhưng không dễ thực hiện ngay.
+                                    </div>
+                                    <div class="new-info-cm d-flex align-items-center">
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/calender-icon.svg" alt="">
+                                            16/03/2022
+                                        </div>
+                                        <div class="info d-flex align-items-center">
+                                            <img src="./images/comment-icon.svg" alt="">
+                                            <span>80</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-block cat-news-slide">
+            <div class="container">
+                <div class="title-section">
+                    <span>HÀI</span>
+                    <span>
+                        <img src="./images/news-icon.svg" alt="">
+                    </span>
+                </div>
+                <ul class="news__slider slider-cm-arrow">
+                    <li>
+                        <div class="thumb">
+                            <a href="">
+                                <img src="./images/home-new-01.jpg" alt="">
+                            </a>
+                        </div>
+                        <h4 class="title">
+                            <a href="">'Gạch' là bộ phận cơ thể nào của cua biển? là bộ phận cơ thể nào của cua biển</a>
+                        </h4>
+                    </li>
+                    <li>
+                        <div class="thumb">
+                            <a href="">
+                                <img src="./images/home-new-01.jpg" alt="">
+                            </a>
+                        </div>
+                        <h4 class="title">
+                            <a href="">'Gạch' là bộ phận cơ thể nào của cua biển?</a>
+                        </h4>
+                    </li>
+                    <li>
+                        <div class="thumb">
+                            <a href="">
+                                <img src="./images/home-new-01.jpg" alt="">
+                            </a>
+                        </div>
+                        <h4 class="title">
+                            <a href="">'Gạch' là bộ phận cơ thể nào của cua biển?</a>
+                        </h4>
+                    </li>
+                    <li>
+                        <div class="thumb">
+                            <a href="">
+                                <img src="./images/home-new-01.jpg" alt="">
+                            </a>
+                        </div>
+                        <h4 class="title">
+                            <a href="">'Gạch' là bộ phận cơ thể nào của cua biển?</a>
+                        </h4>
+                    </li>
+                    <li>
+                        <div class="thumb">
+                            <a href="">
+                                <img src="./images/home-new-01.jpg" alt="">
+                            </a>
+                        </div>
+                        <h4 class="title">
+                            <a href="">'Gạch' là bộ phận cơ thể nào của cua biển?</a>
+                        </h4>
+                    </li>
+                    <li>
+                        <div class="thumb">
+                            <a href="">
+                                <img src="./images/home-new-01.jpg" alt="">
+                            </a>
+                        </div>
+                        <h4 class="title">
+                            <a href="">'Gạch' là bộ phận cơ thể nào của cua biển?</a>
+                        </h4>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="section-block cat-news-slide">
+            <div class="container">
+                <div class="title-section">
+                    <span>NHỊP SỐNG TRẺ</span>
+                    <span>
+                        <img src="./images/news-icon.svg" alt="">
+                    </span>
+                </div>
+                <ul class="news__slider slider-cm-arrow">
+                    <li>
+                        <div class="thumb">
+                            <a href="">
+                                <img src="./images/home-new-01.jpg" alt="">
+                            </a>
+                        </div>
+                        <h4 class="title">
+                            <a href="">'Gạch' là bộ phận cơ thể nào của cua biển? là bộ phận cơ thể nào của cua biển</a>
+                        </h4>
+                    </li>
+                    <li>
+                        <div class="thumb">
+                            <a href="">
+                                <img src="./images/home-new-01.jpg" alt="">
+                            </a>
+                        </div>
+                        <h4 class="title">
+                            <a href="">'Gạch' là bộ phận cơ thể nào của cua biển?</a>
+                        </h4>
+                    </li>
+                    <li>
+                        <div class="thumb">
+                            <a href="">
+                                <img src="./images/home-new-01.jpg" alt="">
+                            </a>
+                        </div>
+                        <h4 class="title">
+                            <a href="">'Gạch' là bộ phận cơ thể nào của cua biển?</a>
+                        </h4>
+                    </li>
+                    <li>
+                        <div class="thumb">
+                            <a href="">
+                                <img src="./images/home-new-01.jpg" alt="">
+                            </a>
+                        </div>
+                        <h4 class="title">
+                            <a href="">'Gạch' là bộ phận cơ thể nào của cua biển?</a>
+                        </h4>
+                    </li>
+                    <li>
+                        <div class="thumb">
+                            <a href="">
+                                <img src="./images/home-new-01.jpg" alt="">
+                            </a>
+                        </div>
+                        <h4 class="title">
+                            <a href="">'Gạch' là bộ phận cơ thể nào của cua biển?</a>
+                        </h4>
+                    </li>
+                    <li>
+                        <div class="thumb">
+                            <a href="">
+                                <img src="./images/home-new-01.jpg" alt="">
+                            </a>
+                        </div>
+                        <h4 class="title">
+                            <a href="">'Gạch' là bộ phận cơ thể nào của cua biển?</a>
+                        </h4>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
     </main>
     <!-- end main -->
-    <footer></footer>
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="row">
+                    <div class="col-12 col-lg-7">
+                        <div class="cat__new d-flex justify-content-between ">
+                            <ul class="block">
+                                <li>
+                                    <a href=""><strong>Trang chủ</strong></a>
+                                </li>
+                                <li>
+                                    <a href=""><strong>Video</strong></a>
+                                </li>
+                                <li>
+                                    <a href=""><strong>Mới nhất</strong></a>
+                                </li>
+                                <li>
+                                    <a href=""><strong>Tin nóng</strong></a>
+                                </li>
+                                <li>
+                                    <a href=""><strong>Tin tức xem nhiều</strong></a>
+                                </li>
+                            </ul>
+                            <ul class="block">
+                                <li>
+                                    <a href="">Thời sự</a>
+                                </li>
+                                <li>
+                                    <a href="">Góc nhìn</a>
+                                </li>
+                                <li>
+                                    <a href="">Thế giới</a>
+                                </li>
+                                <li>
+                                    <a href="">Kinh doanh</a>
+                                </li>
+                                <li>
+                                    <a href="">Giải trí</a>
+                                </li>
+                                <li>
+                                    <a href="">Thể thao</a>
+                                </li>
+                            </ul>
+                            <ul class="block">
+                                <li>
+                                    <a href="">Thời sự</a>
+                                </li>
+                                <li>
+                                    <a href="">Góc nhìn</a>
+                                </li>
+                                <li>
+                                    <a href="">Thế giới</a>
+                                </li>
+                                <li>
+                                    <a href="">Kinh doanh</a>
+                                </li>
+                                <li>
+                                    <a href="">Giải trí</a>
+                                </li>
+                                <li>
+                                    <a href="">Thể thao</a>
+                                </li>
+                            </ul>
+                            <ul class="block">
+                                <li>
+                                    <a href="">Thời sự</a>
+                                </li>
+                                <li>
+                                    <a href="">Góc nhìn</a>
+                                </li>
+                                <li>
+                                    <a href="">Thế giới</a>
+                                </li>
+                                <li>
+                                    <a href="">Kinh doanh</a>
+                                </li>
+                                <li>
+                                    <a href="">Giải trí</a>
+                                </li>
+                                <li>
+                                    <a href="">Thể thao</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-5">
+                        <div class="footer-link__app">
+                            <h3 class="footer__title">ĐỌC BÁO VMMS TRÊN THIẾT BỊ DI ĐỘNG:</h3>
+                            <div class="app__link d-flex align-items-center">
+                                <a href="">
+                                    <img src="./images/gg-play.png" alt="">
+                                </a>
+                                <a href="">
+                                    <img src="./images/app-store.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            
+            $('.hot-news__slide').slick({
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                dots: false,
+                autoplay:true,
+                autoplaySpeed:1500,
+                speed: 1000,
+                prevArrow: '<div class="slick-arrow prev-arrow"><img src="./images/left-icon.png" alt=""></div>',
+	            nextArrow: '<div class="slick-arrow next-arrow"><img src="./images/right-icon.png" alt=""></div>',
+            });
+
+            $('.news__slider').slick({
+                infinite: true,
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                dots: false,
+                autoplay:true,
+                autoplaySpeed:1500,
+                speed: 1000,
+                prevArrow: '<div class="slick-arrow prev-arrow"><img src="./images/left-icon.png" alt=""></div>',
+	            nextArrow: '<div class="slick-arrow next-arrow"><img src="./images/right-icon.png" alt=""></div>',
+            });
+	
+        });
+    </script>
+
 </body>
 
 </html>
