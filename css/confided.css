@@ -1,0 +1,63 @@
+body.confided-page {
+  position: relative;
+}
+body.confided-page main .confided-top {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #F7F7F7;
+  margin-bottom: 15px;
+}
+body.confided-page main .confided-top .title {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+body.confided-page main .confided-top .desc {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+body.confided-page main .confided-top .read-more {
+  display: flex;
+  justify-content: flex-end;
+}
+body.confided-page main .confided-top .read-more a {
+  color: #0077FF;
+  display: block;
+  font-weight: 600;
+}
+body.confided-page main .wrap-confided__list .border-right {
+  border-right: 1px solid #E5E5E5 !important;
+}
+body.confided-page main .wrap-confided__list .viewer-cm li .desc .title a {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+}
+body.confided-page main .wrap-confided__list .viewer-cm li .desc .text {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  text-overflow: ellipsis;
+}
+body.confided-page main .wrap-aside .send-the-writing {
+  border-radius: 10px;
+  border: 1px solid #E5E5E5;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+body.confided-page main .wrap-aside .send-the-writing a {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 8px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #C20000;
+  color: #fff;
+  border-radius: 30px;
+}
+
+/*# sourceMappingURL=confided.css.map */
