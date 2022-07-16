@@ -181,6 +181,10 @@ header .header-mid .inner .header-mid__right .header-tag__news {
 header .header-mid .inner .header-mid__right .header-tag__news li {
   margin-left: 15px;
 }
+header .header-mid .inner .header-mid__right .header-tag__news li.active a {
+  background-color: #C20000;
+  color: #fff;
+}
 header .header-mid .inner .header-mid__right .header-tag__news li a {
   display: block;
   padding: 4.5px 8.5px;
@@ -280,6 +284,9 @@ header nav .header-menu li:last-child img {
 
 main {
   padding-top: 164px;
+}
+main > .wrap-content {
+  padding-top: 80px;
 }
 
 footer {
@@ -440,6 +447,47 @@ section.section-block {
   color: #0077FF;
 }
 
+.most-view__list li {
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 13px;
+}
+.most-view__list li:not(:last-child) {
+  margin-bottom: 13px;
+  border-bottom: 1px solid #E5E5E5;
+}
+.most-view__list li .thumb img {
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.most-view__list li .desc {
+  flex: 1;
+  padding-left: 30px;
+}
+.most-view__list li .desc .title {
+  margin-bottom: 15px;
+}
+.most-view__list li .desc .title a {
+  font-size: 20px;
+  font-weight: bold;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+}
+.most-view__list li .desc .content {
+  margin-bottom: 15px;
+  font-size: 16px;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  text-overflow: ellipsis;
+}
+
 aside.wrap-aside {
   width: 100%;
 }
@@ -514,6 +562,14 @@ aside.wrap-aside .tag__link li a:hover {
   color: #fff;
   border-color: #C20000;
 }
+aside.wrap-aside .tag__link.tag-flex-wrap {
+  overflow-x: hidden;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+aside.wrap-aside .tag__link.tag-flex-wrap li {
+  margin-bottom: 10px;
+}
 aside.wrap-aside .aside__banner img {
   border-radius: 10px;
 }
@@ -566,13 +622,75 @@ aside.wrap-aside .aside-block .number-people {
 aside.wrap-aside .aside-block .number-people strong {
   color: #1A1A1A;
 }
+aside.wrap-aside .aside-block.block-author {
+  overflow: hidden;
+  border: 1px solid #E5E5E5;
+}
+aside.wrap-aside .aside-block.block-author .block-author__title {
+  font-size: 20px;
+  text-align: center;
+  background-color: #E5E5E5;
+  padding: 12px;
+  text-transform: uppercase;
+}
+aside.wrap-aside .aside-block.block-author .wrap-author__list {
+  overflow-y: hidden;
+  padding: 15px 3px 5px 15px;
+}
+aside.wrap-aside .aside-block.block-author .wrap-author__list .author__list {
+  padding-right: 10px;
+  overflow-y: auto;
+  max-height: 420px;
+}
+aside.wrap-aside .aside-block.block-author .wrap-author__list .author__list::-webkit-scrollbar {
+  width: 5px;
+  background-color: #E5E5E5;
+  border-radius: 5px;
+}
+aside.wrap-aside .aside-block.block-author .wrap-author__list .author__list::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #707070;
+}
+aside.wrap-aside .aside-block.block-author .wrap-author__list .author__list li {
+  padding: 15px 0px;
+  border-bottom: 1px solid #E5E5E5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+aside.wrap-aside .aside-block.block-author .wrap-author__list .author__list li:first-child {
+  padding-top: 0px;
+}
+aside.wrap-aside .aside-block.block-author .wrap-author__list .author__list li .avatar img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+aside.wrap-aside .aside-block.block-author .wrap-author__list .author__list li .name {
+  flex: 1;
+  padding-left: 10px;
+}
+aside.wrap-aside .aside-block.block-author .wrap-author__list .author__list li .name a {
+  font-size: 16px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 6px;
+}
+aside.wrap-aside .aside-block.block-author .wrap-author__list .author__list li .name p {
+  font-size: 14px;
+  color: #777777;
+}
+aside.wrap-aside .aside-block.block-author .wrap-author__list .author__list li .name:hover a, aside.wrap-aside .aside-block.block-author .wrap-author__list .author__list li .name:hover p {
+  color: #C20000;
+  opacity: 1;
+}
 
 .viewer-cm li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 10px;
-  padding-bottom: 10px;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
   border-bottom: 1px solid #E5E5E5;
 }
 .viewer-cm li:last-child {

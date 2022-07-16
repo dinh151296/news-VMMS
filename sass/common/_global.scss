@@ -201,6 +201,13 @@ header {
 
                     li {
                         margin-left: 15px;
+
+                        &.active {
+                            a {
+                                background-color: $cl-01;
+                                color: #fff;
+                            }
+                        }
                        
                         a {
                             display: block;
@@ -326,6 +333,10 @@ header {
 
 main {
     padding-top:  164px;
+
+    & > .wrap-content {
+        padding-top: 80px;
+    }
 }
 
 footer {
@@ -531,6 +542,57 @@ section.section-block {
     }
 }
 
+.most-view__list {
+    li {
+        display: flex;
+        align-items: flex-start;
+        padding-bottom: 13px;
+
+        &:not(:last-child) {
+            margin-bottom: 13px;
+            border-bottom: 1px solid #E5E5E5;   
+        }
+
+        .thumb {
+            img {
+                width: 170px;
+                height: 170px;
+                object-fit: cover;
+                border-radius: 10px;
+            }
+        }
+
+        .desc {
+            flex: 1;
+            padding-left: 30px;
+
+            .title {
+                margin-bottom: 15px;
+
+                a {
+                    font-size: 20px;
+                    font-weight: bold;
+                    display: -webkit-box;
+                    overflow: hidden;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 2;
+                    text-overflow: ellipsis;
+                }
+            }
+
+            .content {
+                margin-bottom: 15px;
+                font-size: 16px;
+                display: -webkit-box;
+                overflow: hidden;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 3;
+                text-overflow: ellipsis;
+            }
+        }
+    }
+}
+
 aside.wrap-aside {
     width: 100%;
 
@@ -630,6 +692,16 @@ aside.wrap-aside {
                 }
             }
         }
+
+        &.tag-flex-wrap {
+            overflow-x: hidden;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+
+            li {
+                margin-bottom: 10px;
+            }
+        }
     }
 
     .aside__banner {
@@ -698,6 +770,86 @@ aside.wrap-aside {
                 color: #1A1A1A;
             }
         }
+
+        &.block-author {
+            overflow: hidden;
+            border: 1px solid #E5E5E5;
+
+            .block-author__title {
+                font-size: $title-medium;
+                text-align: center;
+                background-color: #E5E5E5;
+                padding: 12px;
+                text-transform: uppercase;
+            }
+
+            .wrap-author__list {
+                overflow-y: hidden;
+                padding: 15px 3px 5px 15px;
+
+                .author__list {
+                    padding-right: 10px;
+                    overflow-y: auto;
+                    max-height: 420px;
+    
+                    &::-webkit-scrollbar {
+                        width: 5px;
+                        background-color: #E5E5E5;
+                        border-radius: 5px;
+                    }
+    
+                    &::-webkit-scrollbar-thumb {
+                        border-radius: 5px;
+                        background-color: #707070;
+                    }
+    
+                    li {
+                        padding: 15px 0px;
+                        border-bottom: 1px solid $border-cl;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+
+                        &:first-child {
+                            padding-top: 0px;
+                        }
+    
+                        .avatar {
+                            img {
+                                width: 50px;
+                                height: 50px;
+                                object-fit: cover;
+                            }
+                        }
+    
+                        .name {
+                            flex: 1;
+                            padding-left: 10px;
+    
+                            a {
+                                font-size: $title-small;
+                                font-weight: 600;
+                                display: block;
+                                margin-bottom: 6px;
+                            }
+    
+                            p {
+                                font-size: 14px;
+                                color: #777777;
+                            }
+
+                            &:hover a,
+                            &:hover p {
+                                color: $cl-01;
+                                opacity: 1;
+                            }
+                        }
+                    }
+                }
+            }
+
+            
+        }
     }
 }
 
@@ -706,8 +858,8 @@ aside.wrap-aside {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-bottom: 10px;
-        padding-bottom: 10px;
+        margin-bottom: 12px;
+        padding-bottom: 12px;
         border-bottom: 1px solid #E5E5E5;
 
         &:last-child {

@@ -113,46 +113,6 @@ body.home-page .hot-news .hot-news__slide .hot-new__item .title a:hover {
 body.home-page .most-view {
   width: 100%;
 }
-body.home-page .most-view .most-view__list li {
-  display: flex;
-  align-items: flex-start;
-  padding-bottom: 13px;
-}
-body.home-page .most-view .most-view__list li:not(:last-child) {
-  margin-bottom: 13px;
-  border-bottom: 1px solid #E5E5E5;
-}
-body.home-page .most-view .most-view__list li .thumb img {
-  width: 170px;
-  height: 170px;
-  object-fit: cover;
-  border-radius: 10px;
-}
-body.home-page .most-view .most-view__list li .desc {
-  flex: 1;
-  padding-left: 30px;
-}
-body.home-page .most-view .most-view__list li .desc .title {
-  margin-bottom: 15px;
-}
-body.home-page .most-view .most-view__list li .desc .title a {
-  font-size: 20px;
-  font-weight: bold;
-  display: -webkit-box;
-  overflow: hidden;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
-  text-overflow: ellipsis;
-}
-body.home-page .most-view .most-view__list li .desc .content {
-  margin-bottom: 15px;
-  font-size: 16px;
-  display: -webkit-box;
-  overflow: hidden;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
-  text-overflow: ellipsis;
-}
 body.home-page .most-view .border-left {
   border-left: 1px solid #E5E5E5 !important;
 }

@@ -149,57 +149,6 @@ body.home-page {
     .most-view {
         width: 100%;
 
-        .most-view__list {
-            li {
-                display: flex;
-                align-items: flex-start;
-                padding-bottom: 13px;
-
-                &:not(:last-child) {
-                    margin-bottom: 13px;
-                    border-bottom: 1px solid #E5E5E5;   
-                }
-
-                .thumb {
-                    img {
-                        width: 170px;
-                        height: 170px;
-                        object-fit: cover;
-                        border-radius: 10px;
-                    }
-                }
-
-                .desc {
-                    flex: 1;
-                    padding-left: 30px;
-
-                    .title {
-                        margin-bottom: 15px;
-
-                        a {
-                            font-size: 20px;
-                            font-weight: bold;
-                            display: -webkit-box;
-                            overflow: hidden;
-                            -webkit-box-orient: vertical;
-                            -webkit-line-clamp: 2;
-                            text-overflow: ellipsis;
-                        }
-                    }
-
-                    .content {
-                        margin-bottom: 15px;
-                        font-size: 16px;
-                        display: -webkit-box;
-                        overflow: hidden;
-                        -webkit-box-orient: vertical;
-                        -webkit-line-clamp: 3;
-                        text-overflow: ellipsis;
-                    }
-                }
-            }
-        }
-
         .border-left {
             border-left: 1px solid #E5E5E5 !important;
         }
