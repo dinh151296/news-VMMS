@@ -830,6 +830,24 @@ aside.wrap-aside .aside-block.block-author .wrap-author__list .author__list li .
   max-width: 10px;
 }
 
+.wrap-breadcrumb .breadcrumb {
+  background-color: transparent;
+  padding: 20px 0px 0px 0px;
+  margin-bottom: 0px;
+}
+.wrap-breadcrumb .breadcrumb li {
+  color: #C20000;
+  font-size: 14px;
+}
+.wrap-breadcrumb .breadcrumb li a {
+  color: rgba(0, 0, 0, 0.4509803922);
+  font-size: 14px;
+}
+.wrap-breadcrumb .breadcrumb li a:hover {
+  color: #C20000;
+  opacity: 1;
+}
+
 /* ==========end - header========== */
 
 /*# sourceMappingURL=common.css.map */

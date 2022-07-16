@@ -1,0 +1,41 @@
+body.author-page .author__info {
+  width: 100%;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #E5E5E5;
+}
+body.author-page .author__info .author-info__box {
+  border-radius: 10px;
+  background-color: #F7F7F7;
+  margin-bottom: 30px;
+  padding: 30px 100px;
+  justify-content: space-between;
+}
+body.author-page .author__info .author-info__box img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+body.author-page .author__info .author-info__box .__info {
+  flex: 1;
+  padding-left: 30px;
+}
+body.author-page .author__info .author-info__box .__info h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+body.author-page .author__info .author-info__box .__info p {
+  font-size: 18px;
+  color: #777777;
+}
+body.author-page .title--ct {
+  margin-bottom: 35px;
+}
+body.author-page .title--ct span {
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 2px;
+  border-bottom: 2px solid #C20000;
+}
+
+/*# sourceMappingURL=author.css.map */

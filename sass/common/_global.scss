@@ -1023,4 +1023,27 @@ aside.wrap-aside {
         }
     }
 }
+
+.wrap-breadcrumb {
+    .breadcrumb {
+        background-color: transparent;
+        padding: 20px 0px 0px 0px;
+        margin-bottom: 0px;
+
+        li {
+            color: $cl-01;
+            font-size: 14px;
+
+            a {
+                color: #00000073;
+                font-size: 14px;
+
+                &:hover {
+                    color: $cl-01;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
 /* ==========end - header========== */
