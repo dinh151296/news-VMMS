@@ -7,6 +7,9 @@ body.category-page {
         .category-page__top {
             width: 100%;
             margin-bottom: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
 
             .title {
                 display: flex;
@@ -22,24 +25,81 @@ body.category-page {
                 }
             }
 
-            .wrap-hot__news {
-                padding-right: 60px;
+            .hot-news__sl {
+                position: relative;
                 flex: 1;
+                max-width: 920px;
 
-                .hot-news__sl {
-                    position: relative;
-    
-                    li.item {
-                        padding-right: 50px;
-                        a {
-                            font-size: 16px;
-                            color: #777777;
+                &::after {
+                    position: absolute;
+                    content: "";
+                    width: 70px;
+                    height: 100%;
+                    background-color: #fff;
+                    top: 0px;
+                    right: 0px;
+                    z-index: 1;
+                }
+
+                li.item {
+                    padding-right: 70px;
+                    overflow-x: hidden;
+                    
+                    a {
+                        display: block;
+                        overflow: hidden;
+                        font-size: 16px;
+                        white-space: nowrap;
+                        @include lineNumber(1);
+                    }
+                }
+
+                .slick-arrow {
+                    position: absolute;
+                    z-index: 4;
+                    width: 24px;
+                    height: 24px;
+                    border-radius: 50%;
+                    background-color: #AAAAAA;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    cursor: pointer;
+                    transition: 0.2s;
+                    overflow: hidden;
+
+                    &:hover {
+                        background-color: $cl-01;
+
+                        svg {
+                            stroke: #fff;
                         }
+                    }
+
+                    img {
+                        width: 8px;
+                    }
+
+                    svg {
+                        width: 17px;
+                        transition: 0.2s;
+                    }
+
+                    &.prev-arrow  {
+                        right: 29px;
+                    }
+
+                    &.next-arrow  {
+                        right: 0px;
                     }
                 }
             }
-
             
         }
+
+        
+        
     }
 }

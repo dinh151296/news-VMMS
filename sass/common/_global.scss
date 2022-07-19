@@ -1046,4 +1046,62 @@ aside.wrap-aside {
         }
     }
 }
+
+.wrap-content__single-page {
+    .single-post__title {
+        font-size: $title-big;
+    }
+
+    .content {
+        p {
+            font-size: 18px;
+            @include breakpoint(767px) {
+                font-size: 16px;
+            }
+        }
+
+        figure {
+            padding: 20px 0px;
+            margin-bottom: 0px;
+            border-bottom: 1px solid $border-cl;
+
+            .desc__img {
+                font-size: 18px;
+                color: #777777;
+                font-style: italic;
+                padding-top: 15px;
+                display: block;
+                @include breakpoint(767px) {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+
+}
+
+.comment-fb {
+    padding-top: 50px;
+    border-top: 1px solid $border-cl;
+
+    .title {
+        margin-bottom: 1rem;
+
+        h4 {
+            font-size: 24px;
+        }
+    
+        span {
+            white-space: nowrap;
+            color: #707070;
+            cursor: pointer;
+    
+            img {
+                max-width: 10px;
+                margin-left: 6px;
+            }
+        }
+    }
+}
 /* ==========end - header========== */

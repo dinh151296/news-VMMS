@@ -1,6 +1,9 @@
 body.category-page main .category-page__top {
   width: 100%;
   margin-bottom: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 body.category-page main .category-page__top .title {
   display: flex;
@@ -14,19 +17,70 @@ body.category-page main .category-page__top .title img {
   max-width: 24px;
   margin-right: 6px;
 }
-body.category-page main .category-page__top .wrap-hot__news {
-  padding-right: 60px;
-  flex: 1;
-}
-body.category-page main .category-page__top .wrap-hot__news .hot-news__sl {
+body.category-page main .category-page__top .hot-news__sl {
   position: relative;
+  flex: 1;
+  max-width: 920px;
 }
-body.category-page main .category-page__top .wrap-hot__news .hot-news__sl li.item {
-  padding-right: 50px;
+body.category-page main .category-page__top .hot-news__sl::after {
+  position: absolute;
+  content: "";
+  width: 70px;
+  height: 100%;
+  background-color: #fff;
+  top: 0px;
+  right: 0px;
+  z-index: 1;
 }
-body.category-page main .category-page__top .wrap-hot__news .hot-news__sl li.item a {
+body.category-page main .category-page__top .hot-news__sl li.item {
+  padding-right: 70px;
+  overflow-x: hidden;
+}
+body.category-page main .category-page__top .hot-news__sl li.item a {
+  display: block;
+  overflow: hidden;
   font-size: 16px;
-  color: #777777;
+  white-space: nowrap;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  text-overflow: ellipsis;
+}
+body.category-page main .category-page__top .hot-news__sl .slick-arrow {
+  position: absolute;
+  z-index: 4;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #AAAAAA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  transition: 0.2s;
+  overflow: hidden;
+}
+body.category-page main .category-page__top .hot-news__sl .slick-arrow:hover {
+  background-color: #C20000;
+}
+body.category-page main .category-page__top .hot-news__sl .slick-arrow:hover svg {
+  stroke: #fff;
+}
+body.category-page main .category-page__top .hot-news__sl .slick-arrow img {
+  width: 8px;
+}
+body.category-page main .category-page__top .hot-news__sl .slick-arrow svg {
+  width: 17px;
+  transition: 0.2s;
+}
+body.category-page main .category-page__top .hot-news__sl .slick-arrow.prev-arrow {
+  right: 29px;
+}
+body.category-page main .category-page__top .hot-news__sl .slick-arrow.next-arrow {
+  right: 0px;
 }
 
 /*# sourceMappingURL=category.css.map */

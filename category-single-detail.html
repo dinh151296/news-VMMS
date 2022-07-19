@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Góc nhìn</title>
+    <title>Chi tiết bài viết của chuyên mục</title>
 
     <!-- import css slick-slider -->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
@@ -23,10 +23,11 @@
 
 
     <link rel="stylesheet" href="./css/common.css" type="text/css">
+    <link rel="stylesheet" href="./css/category.css" type="text/css">
 
 </head>
 
-<body class="GocNhin-page">
+<body class="category-page">
     <header>
         <div class="header-top">
             <div class="container">
@@ -193,278 +194,66 @@
     </header>
     <!-- end header -->
     <main>
+        <div class="wrap-breadcrumb">
+            <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="#">Trang chủ</a></li>
+                      <li class="breadcrumb-item"><a href="#">Thời sự</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Nhiều chuyên gia ủng hộ phương án ga ngầm cạnh Hồ Gươm</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
         <div class="wrap-content">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-xl-8">
-                        <div class="title-section">
-                            <span>GÓC NHÌN</span>
-                            <span>
-                                <img src="./images/news-icon.svg" alt="">
-                            </span>
+                        <div class="wrap-content__single-page">
+                            <h3 class="single-post__title">
+                                Nhiều chuyên gia ủng hộ phương án ga ngầm cạnh Hồ Gươm
+                            </h3>
+                            <div class="new-info-cm d-flex align-items-center mt-3 mb-4">
+                                <a href="" class="info d-flex align-items-center">
+                                    <img src="./images/user-icon.svg" alt="">
+                                    Nguyễn Hằng
+                                </a>
+                                <div class="info d-flex align-items-center">
+                                    <img src="./images/calender-icon.svg" alt="">
+                                    16/03/2022
+                                </div>
+                                <a href="" class="info d-flex align-items-center">
+                                    <img src="./images/share-icon.svg" alt="">
+                                    Chia sẻ
+                                </a>
+                                <div class="info d-flex align-items-center">
+                                    <img src="./images/comment-icon.svg" alt="">
+                                    <span>80</span>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <p>
+                                    Nhiều chuyên gia ủng hộ xây dựng ga ngầm C9 trước trụ sở Tổng công ty Điện lực Hà Nội, dưới vườn hoa bờ hồ Hoàn Kiếm vì "tối ưu". Hà Nội đang lấy ý kiến các bộ, ngành về ba phương án hướng tuyến ga ngầm C9 trên tuyến đường sắt đô thị số 2 Nam Thăng Long - Trần Hưng Đạo. Phương án 1 là kéo ga ra ngoài vùng bảo vệ II của di tích Hồ Gươm, nằm dưới đường Đinh Tiên Hoàng, trước trụ sở Tổng công ty Điện lực Hà Nội và HĐND-UBND TP Hà Nội. Phương án 2 (phương án ban đầu) là đặt trước trụ sở Tổng công ty Điện lực Hà Nội, dưới vườn hoa bờ Hồ Gươm. Phương án 3 là bỏ ga ngầm C9 hoặc lùi thời điểm xây dựng sau khi tuyến số 2 vận hành.
+                                </p>
+                                <figure>
+                                    <img src="./images/ho-guom.jpg" alt="">
+                                    <span class="desc__img">Ba phương án vị trí ga ngầm C9 tuyến đường sắt đô thị số 2. Đồ họa: Hoàng Khánh</span>
+                                </figure>
+                            </div>
                         </div>
-                        <ul class="viewer-cm mb-5">
-                            <li>
-                                <div class="desc">
-                                    <h3 class="title">
-                                        <a href="">
-                                            Sốt đất và đánh thuế
-                                        </a>
-                                    </h3>
-                                    <div class="text">
-                                        Đề xuất thuế bất động sản - trong bối cảnh tổng thu thuế nhà đất ở Việt Nam còn thấp - là điều hợp lý, nhưng không dễ thực hiện ngay.
-                                    </div>
-                                    <div class="new-info-cm d-flex align-items-center">
-                                        <div class="info d-flex align-items-center">
-                                            <img src="./images/calender-icon.svg" alt="">
-                                            16/03/2022
-                                        </div>
-                                        <div class="info d-flex align-items-center">
-                                            <img src="./images/comment-icon.svg" alt="">
-                                            <span>80</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="avatar d-flex flex-column">
-                                    <img src="./images/viewer-img.png" alt="">
-                                    Đặng Hùng Võ
-                                </div>
-                            </li>
-                            <li>
-                                <div class="desc">
-                                    <h3 class="title">
-                                        <a href="">
-                                            Sốt đất và đánh thuế
-                                        </a>
-                                    </h3>
-                                    <div class="text">
-                                        Đề xuất thuế bất động sản - trong bối cảnh tổng thu thuế nhà đất ở Việt Nam còn thấp - là điều hợp lý, nhưng không dễ thực hiện ngay.
-                                    </div>
-                                    <div class="new-info-cm d-flex align-items-center">
-                                        <div class="info d-flex align-items-center">
-                                            <img src="./images/calender-icon.svg" alt="">
-                                            16/03/2022
-                                        </div>
-                                        <div class="info d-flex align-items-center">
-                                            <img src="./images/comment-icon.svg" alt="">
-                                            <span>80</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="avatar d-flex flex-column">
-                                    <img src="./images/viewer-img.png" alt="">
-                                    Đặng Hùng Võ
-                                </div>
-                            </li>
-                            <li>
-                                <div class="desc">
-                                    <h3 class="title">
-                                        <a href="">
-                                            Sốt đất và đánh thuế
-                                        </a>
-                                    </h3>
-                                    <div class="text">
-                                        Đề xuất thuế bất động sản - trong bối cảnh tổng thu thuế nhà đất ở Việt Nam còn thấp - là điều hợp lý, nhưng không dễ thực hiện ngay.
-                                    </div>
-                                    <div class="new-info-cm d-flex align-items-center">
-                                        <div class="info d-flex align-items-center">
-                                            <img src="./images/calender-icon.svg" alt="">
-                                            16/03/2022
-                                        </div>
-                                        <div class="info d-flex align-items-center">
-                                            <img src="./images/comment-icon.svg" alt="">
-                                            <span>80</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="avatar d-flex flex-column">
-                                    <img src="./images/viewer-img.png" alt="">
-                                    Đặng Hùng Võ
-                                </div>
-                            </li>
-                            <li>
-                                <div class="desc">
-                                    <h3 class="title">
-                                        <a href="">
-                                            Sốt đất và đánh thuế
-                                        </a>
-                                    </h3>
-                                    <div class="text">
-                                        Đề xuất thuế bất động sản - trong bối cảnh tổng thu thuế nhà đất ở Việt Nam còn thấp - là điều hợp lý, nhưng không dễ thực hiện ngay.
-                                    </div>
-                                    <div class="new-info-cm d-flex align-items-center">
-                                        <div class="info d-flex align-items-center">
-                                            <img src="./images/calender-icon.svg" alt="">
-                                            16/03/2022
-                                        </div>
-                                        <div class="info d-flex align-items-center">
-                                            <img src="./images/comment-icon.svg" alt="">
-                                            <span>80</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="avatar d-flex flex-column">
-                                    <img src="./images/viewer-img.png" alt="">
-                                    Đặng Hùng Võ
-                                </div>
-                            </li>
-                            <li>
-                                <div class="desc">
-                                    <h3 class="title">
-                                        <a href="">
-                                            Sốt đất và đánh thuế
-                                        </a>
-                                    </h3>
-                                    <div class="text">
-                                        Đề xuất thuế bất động sản - trong bối cảnh tổng thu thuế nhà đất ở Việt Nam còn thấp - là điều hợp lý, nhưng không dễ thực hiện ngay.
-                                        Đề xuất thuế bất động sản - trong bối cảnh tổng thu thuế nhà đất ở Việt Nam còn thấp - là điều hợp lý, nhưng không dễ thực hiện ngay.
-                                    </div>
-                                    <div class="new-info-cm d-flex align-items-center">
-                                        <div class="info d-flex align-items-center">
-                                            <img src="./images/calender-icon.svg" alt="">
-                                            16/03/2022
-                                        </div>
-                                        <div class="info d-flex align-items-center">
-                                            <img src="./images/comment-icon.svg" alt="">
-                                            <span>80</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="avatar d-flex flex-column">
-                                    <img src="./images/viewer-img.png" alt="">
-                                    Đặng Hùng Võ
-                                </div>
-                            </li>
-                        </ul>
-                        <div class="pagination">
-                            <a href="" class="prev __img">
-                                <img src="./images/left-icon.png" alt="">
-                            </a>
-                            <a href="" class="active">1</a>
-                            <a href="">2</a>
-                            <a href="">3</a>
-                            <a href="">4</a>
-                            <a href="">5</a>
-                            <a href="" class="next __img">
-                                <img src="./images/right-icon.png" alt="">
-                            </a>
+                        <div class="comment-fb">
+                            <div class="title d-flex align-items-center justify-content-between">
+                                <h4>Bình luận (80)</h4>
+                                <span class="d-flex align-items-center">Sắp xếp 
+                                    <img src="./images/down-icon.svg" alt="">
+                                </span>
+                            </div>
+                            <div class="comment-fb__plugin"></div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-xl-4 border-left">
                         <aside class="wrap-aside">
-                            <div class="aside-block block-author p-0">
-                                <h3 class="block-author__title">Tác giả</h3>
-                                <div class="wrap-author__list">
-                                    <ul class="author__list">
-                                        <li>
-                                            <div class="avatar">
-                                                <a href="">
-                                                    <img src="./images/viewer-img.png" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="name">
-                                                <h4>
-                                                    <a href="">Đặng Hùng Võ</a>
-                                                </h4>
-                                                <p>
-                                                    Bác sĩ
-                                                </p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="avatar">
-                                                <a href="">
-                                                    <img src="./images/viewer-img.png" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="name">
-                                                <h4>
-                                                    <a href="">Đặng Hùng Võ</a>
-                                                </h4>
-                                                <p>
-                                                    Bác sĩ
-                                                </p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="avatar">
-                                                <a href="">
-                                                    <img src="./images/viewer-img.png" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="name">
-                                                <h4>
-                                                    <a href="">Đặng Hùng Võ</a>
-                                                </h4>
-                                                <p>
-                                                    Bác sĩ
-                                                </p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="avatar">
-                                                <a href="">
-                                                    <img src="./images/viewer-img.png" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="name">
-                                                <h4>
-                                                    <a href="">Đặng Hùng Võ</a>
-                                                </h4>
-                                                <p>
-                                                    Bác sĩ
-                                                </p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="avatar">
-                                                <a href="">
-                                                    <img src="./images/viewer-img.png" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="name">
-                                                <h4>
-                                                    <a href="">Đặng Hùng Võ</a>
-                                                </h4>
-                                                <p>
-                                                    Bác sĩ
-                                                </p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="avatar">
-                                                <a href="">
-                                                    <img src="./images/viewer-img.png" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="name">
-                                                <h4>
-                                                    <a href="">Đặng Hùng Võ</a>
-                                                </h4>
-                                                <p>
-                                                    Bác sĩ
-                                                </p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="avatar">
-                                                <a href="">
-                                                    <img src="./images/viewer-img.png" alt="">
-                                                </a>
-                                            </div>
-                                            <div class="name">
-                                                <h4>
-                                                    <a href="">Đặng Hùng Võ</a>
-                                                </h4>
-                                                <p>
-                                                    Bác sĩ
-                                                </p>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <h3 class="title text-uppercase pt-4 pb-2"><span>ĐỌC NHIỀU</span></h3>
+                            <h3 class="title text-uppercase pb-2"><span>ĐỌC NHIỀU</span></h3>
                             <ul class="aside-news">
                                 <li>
                                     <div class="thumb">
