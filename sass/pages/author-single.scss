@@ -1,0 +1,71 @@
+@import "../common/_variables.scss";
+@import "../common/_mixin.scss";
+
+body.author-single-page {
+    main {
+        background-color: #F7F7F7;
+
+        .wrap-content__single-page {
+            width: 970px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 0px 100px 80px;
+
+            .wrap-breadcrumb {
+                margin-bottom: 80px;
+            }
+
+            .content {
+                p {
+                    font-size: 20px;
+                    line-height: 1.6;
+                    @include breakpoint(767px) {
+                        font-size: 16px;
+                    }
+                }
+            }
+
+            .title--ct {
+                margin-bottom: 35px;
+                span {
+                    font-size: $title-medium;
+                    font-weight: 600;
+                    padding-bottom: 2px;
+                    border-bottom: 2px solid #C20000;
+                }
+            }
+
+            .read-more-link {
+                a {
+                    display: block;
+                    padding: 11px 33px;
+                    border-radius: 30px;
+                    background-color: $cl-01;
+                    color: #fff;
+                    font-size: 16px;
+                    font-weight: 600;
+
+                    &:hover {
+                        opacity: 0.7;
+                    }
+                }
+
+                &.border-bottom {
+                    border-bottom: 1px solid  $border-cl !important;
+                }
+            }
+
+            .viewer-cm {
+                li{
+                    &:last-child {
+                        border-bottom: 0px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer {
+    margin-top: 0px;
+}

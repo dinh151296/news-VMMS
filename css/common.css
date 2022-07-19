@@ -848,6 +848,55 @@ aside.wrap-aside .aside-block.block-author .wrap-author__list .author__list li .
   opacity: 1;
 }
 
+.wrap-content__single-page .single-post__title {
+  font-size: 30px;
+}
+.wrap-content__single-page .content p {
+  font-size: 18px;
+}
+@media only screen and (max-width: 767px) {
+  .wrap-content__single-page .content p {
+    font-size: 16px;
+  }
+}
+.wrap-content__single-page .content figure {
+  padding: 20px 0px;
+  margin-bottom: 0px;
+  border-bottom: 1px solid #E5E5E5;
+}
+.wrap-content__single-page .content figure .desc__img {
+  font-size: 18px;
+  color: #777777;
+  font-style: italic;
+  padding-top: 15px;
+  display: block;
+}
+@media only screen and (max-width: 767px) {
+  .wrap-content__single-page .content figure .desc__img {
+    font-size: 16px;
+  }
+}
+
+.comment-fb {
+  padding-top: 50px;
+  border-top: 1px solid #E5E5E5;
+}
+.comment-fb .title {
+  margin-bottom: 1rem;
+}
+.comment-fb .title h4 {
+  font-size: 24px;
+}
+.comment-fb .title span {
+  white-space: nowrap;
+  color: #707070;
+  cursor: pointer;
+}
+.comment-fb .title span img {
+  max-width: 10px;
+  margin-left: 6px;
+}
+
 /* ==========end - header========== */
 
 /*# sourceMappingURL=common.css.map */
